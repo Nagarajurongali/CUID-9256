@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.sidenav{
+  height: 100vh;
+  background-color: antiquewhite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidenav img{
+  clip-path: circle();
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Dashboard starts */
+
+.dash{
+  padding: 2%;
+  height: 78vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.maindata{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.getdat{
+  border: 2px solid #111111;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.getdat img{
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.productdata{
+  height: 400px;
+  width: 250px;
+  padding: 2%;
+  border: 2px solid #111111;
+}
+
+.productdata img{
+  height: 200px;
+  width: 100%;
 }
