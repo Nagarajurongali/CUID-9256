@@ -12,9 +12,9 @@ function Earbuds() {
                     <div className='productdata'>
                     <Link to={`/earbuds/${e.id}`}>
                         <img src={e.image} alt="" />
-                        <p>{e.id}</p>
-                        <p>{e.name}</p>
-                        <p>{e.Price}</p>
+                        
+                        <p>Brand Name:{e.name}</p>
+                        
                     </Link>
                     </div>
                     

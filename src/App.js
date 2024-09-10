@@ -8,6 +8,8 @@ import Dashboard from './Components/Dashboard'
 import Statistics from './Components/Statistics';
 import Earbuds from './Pages/Earbuds';
 import SingleItem from './Pages/SingleItem';
+import Storage from './Pages/Storage';
+import Counter from './Pages/Counter';
 function App() {
   return (
     <div className='container-fluid'>
@@ -19,6 +21,8 @@ function App() {
           <Route path='/statistics' element={<Statistics />} />
           <Route path='/earbuds' element={<Earbuds />} />
           <Route path='/earbuds/:id' element={<SingleItem />} />
+          <Route path='/storage' element={<Storage />} />
+          <Route path='/counter' element={<Counter />} />
         </Routes>
       </Router>
       
