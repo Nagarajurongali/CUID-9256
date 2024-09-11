@@ -10,6 +10,8 @@ import Earbuds from './Pages/Earbuds';
 import SingleItem from './Pages/SingleItem';
 import Storage from './Pages/Storage';
 import Counter from './Pages/Counter';
+import Compone from './Datapassing/Compone';
+import CompA from './Usecontaxt/CompA';
 function App() {
   return (
     <div className='container-fluid'>
@@ -23,6 +25,8 @@ function App() {
           <Route path='/earbuds/:id' element={<SingleItem />} />
           <Route path='/storage' element={<Storage />} />
           <Route path='/counter' element={<Counter />} />
+          <Route path='/props' element={<Compone />} />
+          <Route path='/contaxt' element={<CompA />} />
         </Routes>
       </Router>
       
