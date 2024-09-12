@@ -17,7 +17,7 @@ function App() {
     <div className='container-fluid'>
       <Router>
         <Routes>
-          <Route path='/' element={<Login />} />
+          <Route path='/CUID-9256' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/statistics' element={<Statistics />} />
