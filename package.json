@@ -16,6 +16,7 @@
     "react-scripts": "^5.0.1",
     "reactapp": "github:Nagarajurongali/CUID-9256",
     "remote": "^0.2.6",
+    "rm": "^0.1.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
